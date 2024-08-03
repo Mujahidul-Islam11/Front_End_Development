@@ -10,12 +10,14 @@
             overflow-x: hidden;
         }
         .container{
-            height: 100vh;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             gap: 20px;
+            margin: 200px;
+            position: relative;
+            border: 1px solid black;
         }
         #item{
             border: 1px solid black;
@@ -34,6 +36,7 @@
             color: white;
         }
     </style>
+    <!-- Absolute item will only be removed from the whole document if there isn't any relative positioned parents upper it -->
 </head>
 <body>
     <div class="container">
