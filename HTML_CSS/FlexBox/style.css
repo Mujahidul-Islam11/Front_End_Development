@@ -1,0 +1,47 @@
+.container {
+  height: 400px;
+  border: 1px solid red;
+  display: flex;
+  /* display flex korar pore box guli main axis borabor flex hoye geche */
+  /* flex er default direction main axis orthat row borabor bose */
+
+  /* flex-direction: row; */
+  /* Direction row korle kono effect korbe nah karon flex korle default bhabe main axis borabor
+    flex hoi row akare */
+
+  /* flex-direction: column; */
+  /* flex direction column kore dewar por box guli column borabor flex hobe */
+
+  /* flex-direction: column-reverse; */
+  /* column reverse kore dewar por shurur item gula nice ar sesher item gula upore cole jabe
+    orthat ulta hoye jabe. For example - 1, 2, 3, 4 column akare ache ekhon column-reverse korar por
+    - 4, 3, 2, 1 */
+  /* Column reverse kingba row reverse kore dile tader position o ulte jabe, jemon flex column
+     thakle tokhon flex container er item gula top (position) theke flex column hoi. Jokhon 
+     flex direction column reverse ba row reverse kore dile tader position o ulte jai orthat jekhan
+     theke flex item gula shuru hobe oi position tawo biporid hoye jabe
+     */
+
+  /* flex-direction: row; */
+  /* direction row thakle flex item gula row borabor bose jai serial onujai ar left side theke
+  flex ta shuru hoi orthat flex er position left. */
+
+/*flex-direction: row-reverse; */
+  /* direction row-reverse thakle flex item gula row borabor bose jai kintu serial ulte jai 
+  (Example - 3,2,1) ar position o ulte jai left side theke shuru nah hoye right side
+   theke flex ta shuru hoi*/
+
+   flex-wrap: wrap;
+   /* flex-wrap er style wrap kore dile, jokhoni screen size choto hobe ar container box guloke nijer
+   moddhe nite parbe nah tokhon, box er jonno jodi jaiga nah bace container a taile 
+   box guli nice cole jabe. For example, apnar ekta room ache oi room a duita seat ache
+   ar apnar student ache pac jon ar tara prothom seat tate bosche. Kintu student beshi howai first
+   seat a oder jaiga hocche nah tai kichu songkhok student pichoner seat orhat second seat a pathai 
+   dilen */
+}
+
+.box {
+  border: 1px solid green;
+  width: 300px;
+  text-align: center;
+}
