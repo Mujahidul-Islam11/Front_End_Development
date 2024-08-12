@@ -22,3 +22,14 @@ do{
     console.log("Hello" + "" + i);
     i++;
 }while(i<0)
+
+{
+    const name = "dinar";
+    let age = 18;
+}
+
+console.log(name);
+console.log(age);
+// const and let braces scope er hoye thake, orthat const ar let er age pore braces lagiye dile
+// setai tar scope hoye jai braces{} er baire take access kora jabe nah, kintu bhitore jeikono jaigai
+// kora jabe
