@@ -1,0 +1,37 @@
+# Words vs keywords
+- Caca, caci, dinar, bike, teacher, mom etc. = words
+- for, const, forEach, map, function = keywords
+
+=> Erokom kono jinish jar kono mane thake coding language a tader ke keywords bole. Jemon "for"
+eti ekti JavaScript loop ja JavaScript a code likhte bebohar kora hoi, ar "Caca" eti ekti word
+ja kono ortho bohon kore nah coding language a, eti sudhu ekti naam tai etake word bola jai. Ekhon
+ami jodi kothaw "bhaiya" likhi eti ekti just word hobe, cause JavaScript a er kono meaning nei.
+
+
+# var const let 
+- variables and constants
+
+=> Jar moddhe code er data store kora jai take variable bole. Ar variable er data update (reassign) 
+kora jai. Constant o ekti variable jar data change ba update kora jai nah.
+
+-> Mone kori "Lab" and "Labbyr" biye hocche.
+
+        var jamai = "Lab";
+        var bow = "Labby";
+        console.log( jamai + "weds" + bow);
+        // output:- Lab weds Labby
+
+-> Ekhon dhori Labbyr ekta ex chilo "HaramZada", se jamai er namer jaigai nijer naam likhe dilo.
+
+        var jamai = "HaramZada";
+        var bow = "Laby";
+        console.log( jamai + "weds" + bow);
+        // output:- HaramZada weds Labby
+
+-> Ekhon erokom kono HaramZada ese jate jamai er naam update korte nah pare, tai amra use korbo
+const variable.
+
+        const jamai = "Lab";
+        const bow = "Labby";
+        console.log( jamai + "weds" + bow);
+        // output:- Lab weds Labby
