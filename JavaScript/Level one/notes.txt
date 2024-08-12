@@ -35,3 +35,12 @@ const variable.
         const bow = "Labby";
         console.log( jamai + "weds" + bow);
         // output:- Lab weds Labby
+
+-> let o ekti variable etir value update kora jai kintu eki name let diye duita variable declare
+kora jai nah.
+
+        let jamai = "Lab";
+        let jamai = "HaramZada";
+        //x Uncaught SyntaxError: Identifier 'jamai' has already been declared
+-> Redeclare koratei error diyeche.
+
