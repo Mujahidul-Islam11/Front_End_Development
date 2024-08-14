@@ -1,15 +1,65 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
 }
 
-html, body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-#main{
-    height: 100%;
-    width: 100%;
+#main {
+  height: 100%;
+  width: 100%;
+}
+#nav {
+  font-size: 19px;
+  font-weight: 700;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px 40px 0 40px;
+}
+#nav h3 {
+  background-color: #000;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+#intro {
+  height: 68%;
+  width: 100%;
+  padding: 40px 60px;
+  color: #1e1e21;
+  background-color: #F5F3EF;
+}
+
+#intro h1 {
+  font-size: 145px;
+  line-height: 135px;
+  letter-spacing: -4px;
+}
+#place {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+#place h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#hero-image {
+  height: 80%;
+  width: 100%;
+  background-image: url("https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp");
+  background-size: cover;
 }
