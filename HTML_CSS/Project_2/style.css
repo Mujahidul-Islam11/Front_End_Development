@@ -24,9 +24,10 @@ body {
   align-items: center;
   justify-content: flex-end;
   padding: 30px 40px 0 40px;
+  z-index: 50;
 }
 #nav h3 {
-  background-color: #000;
+  background-color: #1e1e21;
   color: white;
   padding: 14px 25px;
   border-radius: 50px;
@@ -38,7 +39,7 @@ body {
   width: 100%;
   padding: 40px 60px;
   color: #1e1e21;
-  background-color: #F5F3EF;
+  background-color: #f5f3ef;
 }
 
 #intro h1 {
@@ -62,4 +63,49 @@ body {
   width: 100%;
   background-image: url("https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp");
   background-size: cover;
+}
+
+#about {
+  width: 100%;
+  z-index: 10;
+  height: 95%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 60px;
+  color: #1e1e21;
+  background-color: #f5f3ef;
+  gap: 10px;
+  position: relative;
+}
+
+#about h2 {
+  width: 66%;
+  height: 100%;
+  font-size: 95px;
+  letter-spacing: -3px;
+  line-height: 83px;
+  padding-right: 80px;
+}
+
+#about-2{
+    height: 100%;
+    width: 36%;
+    font-size: 25px;
+    border-left: 2px solid #000;
+    padding-left: 70px;
+}
+#icons i{
+    background-color: #1e1e21;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-right: 13px;
+}
+#icons{
+    position: absolute;
+    bottom: 12%;
 }
