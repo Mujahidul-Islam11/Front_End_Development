@@ -79,6 +79,7 @@ body {
 #btn2 {
   color: white;
   background: orangered;
+  border: none;
 }
 
 #main>h1{
