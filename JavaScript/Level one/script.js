@@ -37,3 +37,13 @@
 // -> Jokhon eki code punorai use korte can, abar likha chara.
 // -> Jokhon ek code bhinno bhinno data diye calate can.
 // -> Jokhon onek gulo statements eksathe calate can.
+
+function abcd (){
+    for(var i = 0; i <12; i++){
+        console.log(i)
+    }
+}
+
+abcd() // Eta ke bola hoi invoke kora ba call kora.
+// Ekti function jotokkhon projonto call/invoke nah kora hocche totokkhon porjonto function ti
+// kaj kore nah.
