@@ -32,3 +32,8 @@
 // setai tar scope hoye jai braces{} er baire take access kora jabe nah, kintu bhitore jeikono jaigai
 // kora jabe
 
+// functions muloto tinti jinish er jonno bebohar kora hoi.
+// -> Jokhon apnar code sathe sathe calate can nah kintu future a calate can
+// -> Jokhon eki code punorai use korte can, abar likha chara.
+// -> Jokhon ek code bhinno bhinno data diye calate can.
+// -> Jokhon onek gulo statements eksathe calate can.
